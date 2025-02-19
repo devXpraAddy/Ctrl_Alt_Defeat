@@ -26,7 +26,7 @@ const loaderConfig = {
 
 export function GoogleMapsProvider({ children }: { children: ReactNode }) {
   // Fetch the API key configuration
-  const { data: config, isLoading: isConfigLoading } = useQuery<ConfigResponse>({
+  const { data: config, isLoading: isConfigLoading, isError } = useQuery<ConfigResponse>({
     queryKey: ["/api/config"],
     staleTime: Infinity, // Prevent unnecessary refetches
     retry: 3, // Retry failed requests up to 3 times
@@ -35,7 +35,7 @@ export function GoogleMapsProvider({ children }: { children: ReactNode }) {
   // Initialize loader only once with the API key
   const { isLoaded } = useJsApiLoader({
     ...loaderConfig,
-    googleMapsApiKey: 'AIzaSyD_fxO6AvigaIkKx-rfhn8mnPqZ3PX4Ig0'
+    googleMapsApiKey: config?.googleMapsApiKey ?? ''
   });
 
   // Show loading state while fetching configuration
@@ -48,11 +48,20 @@ export function GoogleMapsProvider({ children }: { children: ReactNode }) {
     );
   }
 
+  // Show error state if config fetch fails
+  if (isError) {
+    return (
+      <div className="flex flex-col items-center justify-center h-[400px] bg-muted text-destructive">
+        <span>Failed to load maps configuration</span>
+      </div>
+    );
+  }
+
   // Provide the context to children
   return (
     <GoogleMapsContext.Provider value={{ 
       isLoaded, 
-      apiKeyLoaded: true 
+      apiKeyLoaded: Boolean(config?.googleMapsApiKey)
     }}>
       {children}
     </GoogleMapsContext.Provider>
