@@ -1,0 +1,26 @@
+{
+  "variant": "professional",
+  "primary": "hsl(216, 100%, 45%)",
+  "appearance": "light",
+  "radius": 0.6,
+  "colors": {
+    "primary": "#0052CC",
+    "secondary": "#00875A",
+    "background": "#FFFFFF",
+    "foreground": "#172B4D",
+    "muted": "#F4F5F7",
+    "muted-foreground": "#626F86",
+    "card": "#FFFFFF",
+    "card-foreground": "#172B4D",
+    "popover": "#FFFFFF",
+    "popover-foreground": "#172B4D",
+    "border": "#DFE1E6",
+    "input": "#FFFFFF",
+    "input-foreground": "#172B4D",
+    "accent": "#2684FF",
+    "accent-foreground": "#FFFFFF",
+    "destructive": "#DE350B",
+    "destructive-foreground": "#FFFFFF",
+    "ring": "#2684FF"
+  }
+}
