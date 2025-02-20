@@ -6,6 +6,14 @@ A comprehensive doctor appointment scheduling web application that provides flex
 
 ![Architecture Diagram](https://github.com/devXpraAddy/Ctrl_Alt_Defeat/blob/e294509b0479bf42d63d10303822351bdb963ac3/ArchitectureDiagram.png)
 
+## Video Demo
+
+Here’s a video demonstration of the application in action:
+
+[![Video Demo](https://github.com/Robin9582/Ctrl_Alt_Defeat/blob/b8989501a3455fe4b1eaae271824763a2a3c5900/Home.png)](https://github.com/Robin9582/Ctrl_Alt_Defeat/blob/84a091266cedf548cb0281605c913f1092282b05/VeersaHackathon01.mp4
+)
+
+
 ## Features
 
 - 🔐 **Advanced Authentication**
