@@ -10,8 +10,7 @@ A comprehensive doctor appointment scheduling web application that provides flex
 
 Here’s a video demonstration of the application in action:
 
-[![Video Demo](https://github.com/Robin9582/Ctrl_Alt_Defeat/blob/b8989501a3455fe4b1eaae271824763a2a3c5900/Home.png)](https://github.com/Robin9582/Ctrl_Alt_Defeat/blob/84a091266cedf548cb0281605c913f1092282b05/VeersaHackathon01.mp4
-)
+[![Video Demo](https://github.com/Robin9582/Ctrl_Alt_Defeat/blob/b8989501a3455fe4b1eaae271824763a2a3c5900/Home.png)](https://github.com/user-attachments/assets/2d154ba6-0f1a-48bd-92c7-a9a89babf91e)
 
 
 ## Features
