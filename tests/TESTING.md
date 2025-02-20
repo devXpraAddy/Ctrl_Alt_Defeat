@@ -1,6 +1,7 @@
 ## Getting Started
 
 ### 1. Dependencies Installation
+
 ```bash
 npm install --save-dev vitest supertest @types/supertest
 ```
