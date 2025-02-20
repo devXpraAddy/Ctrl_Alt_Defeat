@@ -2,6 +2,10 @@
 
 A comprehensive doctor appointment scheduling web application that provides flexible, reliable, and location-aware medical booking with advanced scheduling capabilities for Indian healthcare providers.
 
+## System Architecture
+
+![Architecture Diagram](https://github.com/devXpraAddy/Ctrl_Alt_Defeat/blob/e294509b0479bf42d63d10303822351bdb963ac3/ArchitectureDiagram.png)
+
 ## Features
 
 - 🔐 **Advanced Authentication**
