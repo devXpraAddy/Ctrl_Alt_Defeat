@@ -62,6 +62,11 @@ Here’s a video demonstration of the application in action:
 - **APIs & Services**
   - Mailgun for email notifications
   - Google Maps API for location services
+ 
+## UI/UX Design
+The design and prototyping for this project were created in [Figma](https://www.figma.com/design/evBwBEQ8NQBZJcdyo6v3JU/Ctrl_Shift_?m=auto&t=8sb6A7oJVvhNEWgn-1). You can explore the full design system, wireframes, and interactive prototypes through the link above.
+
+The user interface and user experience are carefully crafted to ensure an intuitive, responsive, and visually appealing design. The design phase focused on simplicity, accessibility, and seamless navigation for both patients and doctors.
 
 ## Getting Started
 
