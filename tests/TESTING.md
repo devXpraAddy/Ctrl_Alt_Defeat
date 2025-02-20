@@ -1,14 +1,7 @@
-├── tests/
-│   ├── unit/
-│   │   └── doctors.test.ts       # Unit tests for doctor-related functionality
-│   ├── api/
-│   │   └── doctors.test.ts       # API tests for doctor endpoints
-│   └── setup.ts                  # Test environment setup
-```
-
 ## Getting Started
 
 ### 1. Dependencies Installation
+
 ```bash
 npm install --save-dev vitest supertest @types/supertest
 ```
@@ -113,15 +106,12 @@ Add these scripts to your package.json:
 ```
 
 Execute tests:
-```bash
+
 # Run unit tests
 npm run test:unit
 
 # Run API tests
 npm run test:api
-```
-
-## GitHub Integration
 
 ### Required Dependencies
 ```json
